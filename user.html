@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body>
+		<!-- 导航 -->
+		<nav class="navbar navbar-expand navbar-dark bg-primary navbar-collapse fix-top">
+			<a class="navbar-brand " href="#">某管理系统</a>
+			<ul class="navbar-nav ml-auto ">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-expanded="false">
+						用户操作
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">个人中心</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">退出</a>
+					</div>
+				</li>
+			</ul>
+		</nav>
+		<!-- 左侧导航 -->
+		<div class="lie position-fixed pt-3">
+			<ul class="nav flex-column">
+				<li>
+					<a class="nav-link" href="index.html">首页</a>
+				</li>
+				<li>
+					<a class="nav-link suo" href="user.html">用户中心</a>
+				</li>
+				<li>
+					<a class="nav-link" href="search.html">数据查询</a>
+				</li>
+				<li>
+					<a class="nav-link" href="data.html">数据面板</a>
+				</li>
+				<li>
+					<a class="nav-link" href="tip.html">
+						提醒事项
+						<span class="badge badge-pill badge-warning ml-3">4</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- 主体 -->
+		<div class="zt overflow-auto">
+			<nav aria-label="breadcrumb position-fixed">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item active" aria-current="page">用户中心</li>
+				</ol>
+			</nav>
+			<!-- 容器内容 -->
+			<div class="container-fluid">
+				<div class="table-responsive pr-3 pl-3">
+					<table class="table table-striped table-bordered">
+						<thead>
+							<tr>
+								<th scope="col">用户id</th>
+								<th scope="col">First</th>
+								<th scope="col">Last</th>
+								<th scope="col">Handle</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>@mdo</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Larry</td>
+								<td>the Bird</td>
+								<td>@twitter</td>
+							</tr>
+						</tbody>
+					</table>
+					<nav aria-label="Page navigation example">
+						<ul class="pagination justify-content-end">
+							<li class="page-item">
+								<a class="page-link" href="#" tabindex="-1">Previous</a>
+							</li>
+							<li class="page-item"><a class="page-link" href="#">1</a></li>
+							<li class="page-item"><a class="page-link" href="#">2</a></li>
+							<li class="page-item"><a class="page-link" href="#">3</a></li>
+							<li class="page-item">
+								<a class="page-link" href="#">Next</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<!-- js部分 -->
+		<script src="js/jquery.slim.min.js"></script>
+		<script src="js/bootstrap.bundle.js"></script>
+	</body>
+</html>
